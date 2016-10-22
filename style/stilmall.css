@@ -1,0 +1,181 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+p {
+	color: black;
+	font-family:garamond;
+	}
+h1 {
+	font-family: helvetica;
+	font-size: 32px;
+
+	}
+	
+h2 {
+	font-family: helvetica;
+	font-size: 20px;
+
+	}
+ul {
+	list-style-type: none;
+	
+}
+
+li a {
+text-decoration: none;
+}
+
+li {
+	background-color: #E0E0E0;
+	margin: 15px;
+	padding: 5px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	list-style-type: none;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+li:hover {
+	background-color:#000;
+}
+
+
+ul a {
+	text-decoration: none;
+	color: black;
+}
+
+
+ul a:visited{
+	color: grey;
+}
+
+body {
+	background-image: url(../images/gradient-bg.jpg);
+	background-repeat: repeat-x;
+	text-decoration: none;
+}
+
+#wrapper {
+	width: 1000px;
+	min-height: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	}
+
+
+#mainwrap {
+	width: 960px;
+	min-height: 500px;
+	margin-right: 20px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+	float: right;
+	position: relative;
+	}
+
+
+#siteheader {
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	height: 140px;
+	width: 950px;
+	padding: 10px;
+	margin-bottom: 5px;
+	background-color: #9FF;
+	color: #000;
+	position: relative;
+	left: 50%;
+	margin-left: -480px;
+	background-image: url(../images/header-bg.jpg);
+	}
+
+#menuheader {
+	width: 960px;
+	height: 50px;
+	border-width: 3px;
+	margin-bottom: 5px;
+	border-style: solid;
+	border-color: #C0C0C0;
+	background-color: #B0B0B0;
+	position: relative;
+	left: 50%;
+	margin-left: -480px;
+	}
+
+#menuheader li {
+	display: inline;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+}
+
+
+#nav {
+	width: 105px;
+	min-height: 650px;
+	margin: 5px;
+	padding: 5px;
+	background-color: #FFFFFF;
+	float: right;
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;	
+	}
+
+#nav ul {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+#cont {
+	width: 815px;
+	min-height: 650px;
+	margin: 5px;
+	padding: 5px;
+	background-color: #FFFFFF;
+	float: left;
+	}
+
+#foot {
+	text-align: center;
+	font-size: 15px;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 962px;
+	height: 10px;
+	background-color: grey;
+	position: relative;
+	float: left;
+	left: 50%;
+	margin-left: -482px;
+
+	}
+	
+/*Form*/
+
+#fieldset
+{
+width: 20em;
+border-width: 1px; 
+border_style: solid;
+border-color: lightgrey;
+}
+
+#legend
+{
+color: #000;
+background: #fff;
+padding: 2px 6px
+}
